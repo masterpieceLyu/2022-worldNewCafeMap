@@ -1,0 +1,280 @@
+.areas {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* position: absolute; */
+  position: relative;
+  align-items: center;
+  margin: 0;
+  /* height: 100%; */
+  padding: 0;
+}
+
+.area {
+  position: absolute;
+}
+
+.area {
+  transition: 20s ease-in-out infinite;
+  /* border: 1px solid rgba(0, 0, 0, 1); */
+}
+
+@keyframes danceArea {
+  0% {
+    transform: none;
+  }
+  5% {
+    transform: scale(105%); /* rotate(3deg); */
+  }
+  10% {
+    transform: scale(95%); /* rotate(-3deg); */
+  }
+  15% {
+    transform: scale(105%); /* rotate(3deg); */
+  }
+  20% {
+    transform: scale(95%); /* rotate(-3deg); */
+  }
+  25% {
+    transform: scale(105%); /* rotate(3deg); */
+  }
+  30% {
+    transform: scale(95%); /* rotate(-3deg); */
+  }
+  35% {
+    transform: scale(105%); /* rotate(3deg); */
+  }
+  40% {
+    transform: scale(95%); /* rotate(-3deg); */
+  }
+  45% {
+    transform: scale(105%); /* rotate(-3deg); */
+  }
+  50% {
+    transform: scale(95%); /* rotate(3deg); */
+  }
+  55% {
+    transform: scale(105%); /* rotate(-3deg); */
+  }
+  60% {
+    transform: scale(95%); /* rotate(3deg); */
+  }
+  65% {
+    transform: scale(105%); /* rotate(-3deg); */
+  }
+  70% {
+    transform: scale(95%); /* rotate(3deg); */
+  }
+  75% {
+    transform: scale(105%); /* rotate(-3deg); */
+  }
+  80% {
+    transform: scale(95%); /* rotate(3deg); */
+  }
+  85% {
+    transform: scale(105%); /* rotate(-3deg); */
+  }
+  90% {
+    transform: scale(95%); /* rotate(-3deg); */
+  }
+  95% {
+    transform: scale(105%); /* rotate(-3deg); */
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.area img:hover {
+  animation: danceArea 20s ease-in-out infinite;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.area img:hover {
+  -webkit-filter: drop-shadow(1px 1px 0 #000000);
+  filter: drop-shadow(1px 1px 0 #000000);
+}
+
+.area-Gyeonggi-do {
+  top: 70px;
+  left: 321px;
+  width: 214px;
+  z-index: 1;
+}
+
+.area-Gyeonggi-do img {
+  width: 214px;
+}
+
+.area-Seoul {
+  top: 195px;
+  left: 366px;
+  width: 69px;
+  z-index: 3;
+}
+
+.area-Seoul img {
+  width: 69px;
+}
+
+.area-Gangwon-do {
+  top: 0px;
+  left: 416px;
+  width: 375px;
+  z-index: 4;
+}
+
+.area-Gangwon-do img {
+  width: 375px;
+}
+
+.area-Incheon {
+  top: 164px;
+  left: 250px;
+  width: 112px;
+  z-index: 3;
+}
+
+.area-Incheon img {
+  width: 112px;
+}
+
+.area-Choungcheong-North {
+  top: 291px;
+  left: 446px;
+  width: 222px;
+  z-index: 2;
+}
+
+.area-Choungcheong-North img {
+  width: 222px;
+}
+
+.area-Choungcheong-South {
+  top: 325px;
+  left: 256px;
+  width: 250px;
+}
+
+.area-Choungcheong-South img {
+  width: 250px;
+}
+
+.area-Deagu {
+  top: 549px;
+  left: 626px;
+  width: 65px;
+  z-index: 3;
+}
+
+.area-Deagu img {
+  width: 65px;
+}
+
+.area-Deajeon {
+  top: 449px;
+  left: 444px;
+  width: 44px;
+  z-index: 3;
+}
+
+.area-Deajeon img {
+  width: 44px;
+}
+
+.area-Gwangju {
+  top: 687px;
+  left: 362px;
+  width: 38px;
+  z-index: 3;
+}
+
+.area-Gwangju img {
+  width: 38px;
+}
+
+.area-Jeolla-do-North {
+  top: 513px;
+  left: 306px;
+  width: 245px;
+}
+
+.area-Jeolla-do-North img {
+  width: 245px;
+}
+
+.area-Jeolla-do-South {
+  top: 654px;
+  left: 215px;
+  width: 315px;
+}
+
+.area-Jeolla-do-South img {
+  width: 315px;
+}
+
+.area-Sejong {
+  top: 399px;
+  left: 424px;
+  width: 34px;
+  z-index: 2;
+}
+
+.area-Sejong img {
+  width: 34px;
+}
+
+.area-Gyeongsang-do-North {
+  top: 313px;
+  left: 533px;
+  width: 293px;
+  z-index: 1;
+}
+
+.area-Gyeongsang-do-North img {
+  width: 293px;
+}
+
+.area-Gyeongsang-do-South {
+  top: 569px;
+  left: 502px;
+  width: 259px;
+  z-index: 1;
+}
+
+.area-Gyeongsang-do-South img {
+  width: 259px;
+}
+
+.area-Ulsan {
+  top: 608px;
+  left: 730px;
+  width: 76px;
+  z-index: 3;
+}
+
+.area-Ulsan img {
+  width: 76px;
+}
+
+.area-Busan {
+  top: 670px;
+  left: 681px;
+  width: 140px;
+  z-index: 3;
+}
+
+.area-Busan img {
+  width: 140px;
+}
+
+.area-Jeju {
+  top: 865px;
+  left: 35px;
+  width: 132px;
+}
+
+.area-Jeju img {
+  width: 132px;
+}

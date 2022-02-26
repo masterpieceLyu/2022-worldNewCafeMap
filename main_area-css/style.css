@@ -1,0 +1,33 @@
+@import "component/area.css";
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: turquoise;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-area {
+  background: url("../photowork/main-area-bo2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 1060px;
+  height: 950px;
+}

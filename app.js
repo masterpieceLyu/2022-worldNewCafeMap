@@ -1,0 +1,1 @@
+const area seouldocument.querySelectorAll(.area-Seoul)

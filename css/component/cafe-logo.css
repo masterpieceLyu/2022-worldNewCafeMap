@@ -1,0 +1,140 @@
+.cafes {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* position: absolute; */
+  position: relative;
+  margin: 0;
+  /* height: 100%; */
+  padding: 0;
+}
+
+.cafe {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+}
+
+.cafe img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 0.5px solid rgba(0, 0, 0, 0.3);
+}
+
+.cafe {
+  transition: 0.25s ease-in-out;
+}
+
+.cafe:hover {
+  transform: scale(130%);
+  transition: 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+/* 카페 */
+
+.cafe_33apt {
+  top: 508px;
+  left: 53%;
+}
+
+.cafe_anthracite {
+  top: 508px;
+  left: 37.5%;
+}
+
+.cafe_boot {
+  top: 370px;
+  left: 43.8%;
+}
+
+.cafe_brewingSeremony {
+  top: 535px;
+  left: 64.5%;
+}
+
+.cafe_cafeJinjungsung {
+  top: 593px;
+  left: 34.5%;
+}
+
+.cafe_centerCoffee {
+  top: 470px;
+  left: 63.5%;
+}
+
+.cafe_chungmugong {
+  top: 672px;
+  left: 72.5%;
+}
+
+.cafe_coffeeAndCigarettes {
+  top: 413px;
+  left: 50.4%;
+}
+
+.cafe_coffeeLibre {
+  top: 615px;
+  left: 24.5%;
+}
+
+.cafe_coffeeMongtage {
+  top: 600px;
+  left: 85.6%;
+}
+
+.cafe_heyTheGreen {
+  top: 590px;
+  left: 14%;
+}
+
+.cafe_koffeeSniffer {
+  top: 475px;
+  left: 45.8%;
+}
+
+.cafe_seoul-lawns {
+  top: 693px;
+  left: 80%;
+}
+
+.cafe_seoul-pilgrim {
+  top: 642px;
+  left: 30.4%;
+}
+
+.cafe_seoul-sikmulhak {
+  top: 596px;
+  left: 59.9%;
+}
+
+.cafe_seoul-summitCulture {
+  top: 434px;
+  left: 36.9%;
+}
+
+.cafe_seoul-travertine {
+  top: 570px;
+  left: 44%;
+}
+
+.cafe_seoul-txt {
+  top: 344px;
+  left: 52.6%;
+}
+
+.cafe_seoul-unIcon {
+  top: 550px;
+  left: 28%;
+}
+
+.cafe_seoul-upSide {
+  top: 487px;
+  left: 69.5%;
+}
+
+.cafe_seoul-wickerpark {
+  top: 626px;
+  left: 79.05%;
+}
